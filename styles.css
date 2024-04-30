@@ -56,3 +56,29 @@ h1 {
   padding: 10px;
   border-radius: 10px;
 }
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(
+    to bottom,
+    #1a1a1a,
+    #000000
+  ); /* Blackish linear gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cell:hover {
+  background: linear-gradient(
+    to bottom,
+    #000000,
+    #1a1a1a
+  ); /* Reverse gradient on hover */
+}
