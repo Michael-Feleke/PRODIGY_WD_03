@@ -24,3 +24,9 @@ function startAIGame() {
   backBtn.style.display = "block";
   resetGame();
 }
+
+function goBackToModeSelection() {
+  modeSelection.style.display = "block";
+  gameContainer.style.display = "none";
+  backBtn.style.display = "none";
+}
