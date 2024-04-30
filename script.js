@@ -16,3 +16,11 @@ let isAI = false;
 const cells = document.querySelectorAll(".cell");
 const status = document.getElementById("status");
 const resetBtn = document.getElementById("resetBtn");
+
+function startAIGame() {
+  isAI = true;
+  modeSelection.style.display = "none";
+  gameContainer.style.display = "block";
+  backBtn.style.display = "block";
+  resetGame();
+}
