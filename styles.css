@@ -89,3 +89,19 @@ h1 {
   color: #fff;
   text-align: center;
 }
+
+#backBtn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#backBtn:hover {
+  background-color: #d32f2f;
+}
