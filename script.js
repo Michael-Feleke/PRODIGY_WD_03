@@ -25,6 +25,14 @@ function startAIGame() {
   resetGame();
 }
 
+function startTwoPlayerGame() {
+  isAI = false;
+  modeSelection.style.display = "none";
+  gameContainer.style.display = "block";
+  backBtn.style.display = "block";
+  resetGame();
+}
+
 function goBackToModeSelection() {
   modeSelection.style.display = "block";
   gameContainer.style.display = "none";
