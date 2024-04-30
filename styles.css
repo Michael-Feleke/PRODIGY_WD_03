@@ -15,3 +15,23 @@ body {
 h1 {
   color: white;
 }
+
+.mode-selection {
+  margin-bottom: 20px;
+}
+
+.mode-selection button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 0 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mode-selection button:hover {
+  background-color: #45a049;
+}
